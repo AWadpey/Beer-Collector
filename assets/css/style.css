@@ -1,0 +1,66 @@
+body {
+    background-color: #000000;
+    background-image: url('../../assets/images/beer-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20px;
+    color: #eee;
+    margin-left: -50px;
+}
+
+
+.head {
+    text-align: left;
+}
+.container {
+    text-align: center;
+}
+
+.instructions {
+    text-align: left;
+}
+
+.youtube {
+    margin-top: 20px;
+}
+
+.number-generator,
+.game-tracker {
+    padding-top: 20px;
+    border: 1px dashed #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.number-generator {
+    font-size: 60px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.game-tracker {
+    text-align: left;
+}
+
+
+.score-header {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.score-tracker {
+    text-align: center;
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+hr {
+    border: #eee dashed 2px;
+    width: 30%;
+    margin-left: 0%;
+
+}

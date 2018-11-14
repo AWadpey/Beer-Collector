@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Beer Collector!</title>
+
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">  
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>  
+    
+    </head>
+  
+  
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="col head"><h1>Beer Collector!</h1></div>
+          </div>
+
+          <hr>
+
+          <div class="row instructions">
+            <div class="col-6">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four beers below. By clicking on a beer you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to the random number.
+                    you lose the game if your total score goes above the random number.
+                </p>
+                <p>The value of each beer is hidden from you until you click on it.</p>
+                <p>Each time the game starts, the value of each beer will change.</p>
+            </div>
+            
+            
+          </div>
+          
+          <div class="row">
+            <div class="col-2 number-generator"><h2>0</h2></div>
+            <div class="col-2 game-tracker">
+                <p class="gameover">How drunk are you??</p>
+                <p>Wins:  <div class="win-count"></div></p>
+                <p>Losses:  <div class="loss-count"></div></p>
+            </div>
+            <div class="col-2 youtube">
+                    <iframe width="400" height="223" src="https://www.youtube.com/embed/qVjCag8XoHQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-2.5 beers">
+                    <img src="assets/images/red-stripe.png" class="collector" id="one" alt="collector image" width="200px" height="200px">
+            </div>
+            <div class="col-2.5 beers">
+                    <img src="assets/images/sierra-nevada.png" class="collector" id="two" alt="collector image" width="200px" height="200px">
+            </div>
+            <div class="col-2.5 beers">
+                    <img src="assets/images/guinness.png" class="collector" id="three" alt="collector image" width="200px" height="200px">
+            </div>
+            <div class="col-2.5 beers">
+                    <img src="assets/images/805.png" class="collector" id="four" alt="collector image" width="200px" height="200px">
+            </div>
+          </div>
+
+          <div class="row score-header">
+            <div class="col-md-8"><h3>Total Score:</h3></div>
+          </div>
+                <hr>
+          <div class="row score-tracker">
+            <div class="col"><h2>0</h2></div>
+          </div>
+        
+    </div> 
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script src="assets/javascript/game.js">
+                    
+
+        </script>
+  
+    </body>
+
+</html>
+
